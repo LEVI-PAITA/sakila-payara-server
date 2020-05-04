@@ -1,0 +1,13 @@
+{
+    "staff": [
+        {
+            "staff_id": 1,
+            "first_name": "Miguel",
+            "last_name": "Blas",
+            "email": "test@gmail.com",
+            "active": true,
+            "username": "Miguel",
+            "last_update": "2020-01-01"
+        }
+    ]
+}

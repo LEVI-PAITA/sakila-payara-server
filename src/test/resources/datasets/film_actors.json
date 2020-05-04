@@ -1,0 +1,14 @@
+{
+    "film_actor": [
+        {
+            "actor_id": 1,
+            "film_id": 1,
+            "last_update": "2020-01-01"
+        },
+        {
+            "actor_id": 1,
+            "film_id": 2,
+            "last_update": "2020-01-01"
+        }
+    ]
+}

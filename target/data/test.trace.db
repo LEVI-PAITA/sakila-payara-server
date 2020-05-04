@@ -1,0 +1,384 @@
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM_CATEGORY" no encontrada
+Table "FILM_CATEGORY" not found; SQL statement:
+ALTER TABLE film_category DROP CONSTRAINT FK_film_category_category_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM_CATEGORY" no encontrada
+Table "FILM_CATEGORY" not found; SQL statement:
+ALTER TABLE film_category DROP CONSTRAINT FK_film_category_film_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "RENTAL" no encontrada
+Table "RENTAL" not found; SQL statement:
+ALTER TABLE rental DROP CONSTRAINT FK_rental_inventory_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "RENTAL" no encontrada
+Table "RENTAL" not found; SQL statement:
+ALTER TABLE rental DROP CONSTRAINT FK_rental_customer_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "RENTAL" no encontrada
+Table "RENTAL" not found; SQL statement:
+ALTER TABLE rental DROP CONSTRAINT FK_rental_staff_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CUSTOMER" no encontrada
+Table "CUSTOMER" not found; SQL statement:
+ALTER TABLE customer DROP CONSTRAINT FK_customer_store_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CUSTOMER" no encontrada
+Table "CUSTOMER" not found; SQL statement:
+ALTER TABLE customer DROP CONSTRAINT FK_customer_address_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM" no encontrada
+Table "FILM" not found; SQL statement:
+ALTER TABLE film DROP CONSTRAINT FK_film_language_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM" no encontrada
+Table "FILM" not found; SQL statement:
+ALTER TABLE film DROP CONSTRAINT FK_film_original_language_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "STAFF" no encontrada
+Table "STAFF" not found; SQL statement:
+ALTER TABLE staff DROP CONSTRAINT FK_staff_address_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "STORE" no encontrada
+Table "STORE" not found; SQL statement:
+ALTER TABLE store DROP CONSTRAINT FK_store_manager_staff_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "STORE" no encontrada
+Table "STORE" not found; SQL statement:
+ALTER TABLE store DROP CONSTRAINT FK_store_address_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "ADDRESS" no encontrada
+Table "ADDRESS" not found; SQL statement:
+ALTER TABLE address DROP CONSTRAINT FK_address_city_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "PAYMENT" no encontrada
+Table "PAYMENT" not found; SQL statement:
+ALTER TABLE payment DROP CONSTRAINT FK_payment_customer_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "PAYMENT" no encontrada
+Table "PAYMENT" not found; SQL statement:
+ALTER TABLE payment DROP CONSTRAINT FK_payment_rental_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "PAYMENT" no encontrada
+Table "PAYMENT" not found; SQL statement:
+ALTER TABLE payment DROP CONSTRAINT FK_payment_staff_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CITY" no encontrada
+Table "CITY" not found; SQL statement:
+ALTER TABLE city DROP CONSTRAINT FK_city_country_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "INVENTORY" no encontrada
+Table "INVENTORY" not found; SQL statement:
+ALTER TABLE inventory DROP CONSTRAINT FK_inventory_store_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "INVENTORY" no encontrada
+Table "INVENTORY" not found; SQL statement:
+ALTER TABLE inventory DROP CONSTRAINT FK_inventory_film_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM_ACTOR" no encontrada
+Table "FILM_ACTOR" not found; SQL statement:
+ALTER TABLE film_actor DROP CONSTRAINT FK_film_actor_film_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM_ACTOR" no encontrada
+Table "FILM_ACTOR" not found; SQL statement:
+ALTER TABLE film_actor DROP CONSTRAINT FK_film_actor_actor_id [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM_CATEGORY" no encontrada
+Table "FILM_CATEGORY" not found; SQL statement:
+DROP TABLE film_category [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+DROP TABLE country [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "RENTAL" no encontrada
+Table "RENTAL" not found; SQL statement:
+DROP TABLE rental [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CUSTOMER" no encontrada
+Table "CUSTOMER" not found; SQL statement:
+DROP TABLE customer [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM" no encontrada
+Table "FILM" not found; SQL statement:
+DROP TABLE film [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "STAFF" no encontrada
+Table "STAFF" not found; SQL statement:
+DROP TABLE staff [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "STORE" no encontrada
+Table "STORE" not found; SQL statement:
+DROP TABLE store [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "ADDRESS" no encontrada
+Table "ADDRESS" not found; SQL statement:
+DROP TABLE address [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "PAYMENT" no encontrada
+Table "PAYMENT" not found; SQL statement:
+DROP TABLE payment [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CITY" no encontrada
+Table "CITY" not found; SQL statement:
+DROP TABLE city [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "INVENTORY" no encontrada
+Table "INVENTORY" not found; SQL statement:
+DROP TABLE inventory [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "LANGUAGE" no encontrada
+Table "LANGUAGE" not found; SQL statement:
+DROP TABLE language [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CATEGORY" no encontrada
+Table "CATEGORY" not found; SQL statement:
+DROP TABLE category [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "ACTOR" no encontrada
+Table "ACTOR" not found; SQL statement:
+DROP TABLE actor [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM_ACTOR" no encontrada
+Table "FILM_ACTOR" not found; SQL statement:
+DROP TABLE film_actor [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM_CATEGORY" no encontrada
+Table "FILM_CATEGORY" not found; SQL statement:
+DROP TABLE film_category [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+DROP TABLE country [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "RENTAL" no encontrada
+Table "RENTAL" not found; SQL statement:
+DROP TABLE rental [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CUSTOMER" no encontrada
+Table "CUSTOMER" not found; SQL statement:
+DROP TABLE customer [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM" no encontrada
+Table "FILM" not found; SQL statement:
+DROP TABLE film [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "STAFF" no encontrada
+Table "STAFF" not found; SQL statement:
+DROP TABLE staff [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "STORE" no encontrada
+Table "STORE" not found; SQL statement:
+DROP TABLE store [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "ADDRESS" no encontrada
+Table "ADDRESS" not found; SQL statement:
+DROP TABLE address [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "PAYMENT" no encontrada
+Table "PAYMENT" not found; SQL statement:
+DROP TABLE payment [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CITY" no encontrada
+Table "CITY" not found; SQL statement:
+DROP TABLE city [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "INVENTORY" no encontrada
+Table "INVENTORY" not found; SQL statement:
+DROP TABLE inventory [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "LANGUAGE" no encontrada
+Table "LANGUAGE" not found; SQL statement:
+DROP TABLE language [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CATEGORY" no encontrada
+Table "CATEGORY" not found; SQL statement:
+DROP TABLE category [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "ACTOR" no encontrada
+Table "ACTOR" not found; SQL statement:
+DROP TABLE actor [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM_ACTOR" no encontrada
+Table "FILM_ACTOR" not found; SQL statement:
+DROP TABLE film_actor [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM_CATEGORY" no encontrada
+Table "FILM_CATEGORY" not found; SQL statement:
+DROP TABLE film_category [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+DROP TABLE country [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "RENTAL" no encontrada
+Table "RENTAL" not found; SQL statement:
+DROP TABLE rental [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CUSTOMER" no encontrada
+Table "CUSTOMER" not found; SQL statement:
+DROP TABLE customer [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM" no encontrada
+Table "FILM" not found; SQL statement:
+DROP TABLE film [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "STAFF" no encontrada
+Table "STAFF" not found; SQL statement:
+DROP TABLE staff [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "STORE" no encontrada
+Table "STORE" not found; SQL statement:
+DROP TABLE store [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "ADDRESS" no encontrada
+Table "ADDRESS" not found; SQL statement:
+DROP TABLE address [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "PAYMENT" no encontrada
+Table "PAYMENT" not found; SQL statement:
+DROP TABLE payment [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CITY" no encontrada
+Table "CITY" not found; SQL statement:
+DROP TABLE city [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "INVENTORY" no encontrada
+Table "INVENTORY" not found; SQL statement:
+DROP TABLE inventory [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "LANGUAGE" no encontrada
+Table "LANGUAGE" not found; SQL statement:
+DROP TABLE language [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CATEGORY" no encontrada
+Table "CATEGORY" not found; SQL statement:
+DROP TABLE category [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "ACTOR" no encontrada
+Table "ACTOR" not found; SQL statement:
+DROP TABLE actor [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM_ACTOR" no encontrada
+Table "FILM_ACTOR" not found; SQL statement:
+DROP TABLE film_actor [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM_CATEGORY" no encontrada
+Table "FILM_CATEGORY" not found; SQL statement:
+DROP TABLE film_category [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+DROP TABLE country [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "RENTAL" no encontrada
+Table "RENTAL" not found; SQL statement:
+DROP TABLE rental [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CUSTOMER" no encontrada
+Table "CUSTOMER" not found; SQL statement:
+DROP TABLE customer [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM" no encontrada
+Table "FILM" not found; SQL statement:
+DROP TABLE film [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "STAFF" no encontrada
+Table "STAFF" not found; SQL statement:
+DROP TABLE staff [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "STORE" no encontrada
+Table "STORE" not found; SQL statement:
+DROP TABLE store [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "ADDRESS" no encontrada
+Table "ADDRESS" not found; SQL statement:
+DROP TABLE address [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "PAYMENT" no encontrada
+Table "PAYMENT" not found; SQL statement:
+DROP TABLE payment [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CITY" no encontrada
+Table "CITY" not found; SQL statement:
+DROP TABLE city [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "INVENTORY" no encontrada
+Table "INVENTORY" not found; SQL statement:
+DROP TABLE inventory [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "LANGUAGE" no encontrada
+Table "LANGUAGE" not found; SQL statement:
+DROP TABLE language [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CATEGORY" no encontrada
+Table "CATEGORY" not found; SQL statement:
+DROP TABLE category [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "ACTOR" no encontrada
+Table "ACTOR" not found; SQL statement:
+DROP TABLE actor [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM_ACTOR" no encontrada
+Table "FILM_ACTOR" not found; SQL statement:
+DROP TABLE film_actor [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM_CATEGORY" no encontrada
+Table "FILM_CATEGORY" not found; SQL statement:
+DROP TABLE film_category [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "COUNTRY" no encontrada
+Table "COUNTRY" not found; SQL statement:
+DROP TABLE country [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "RENTAL" no encontrada
+Table "RENTAL" not found; SQL statement:
+DROP TABLE rental [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CUSTOMER" no encontrada
+Table "CUSTOMER" not found; SQL statement:
+DROP TABLE customer [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM" no encontrada
+Table "FILM" not found; SQL statement:
+DROP TABLE film [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "STAFF" no encontrada
+Table "STAFF" not found; SQL statement:
+DROP TABLE staff [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "STORE" no encontrada
+Table "STORE" not found; SQL statement:
+DROP TABLE store [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "ADDRESS" no encontrada
+Table "ADDRESS" not found; SQL statement:
+DROP TABLE address [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "PAYMENT" no encontrada
+Table "PAYMENT" not found; SQL statement:
+DROP TABLE payment [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CITY" no encontrada
+Table "CITY" not found; SQL statement:
+DROP TABLE city [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "INVENTORY" no encontrada
+Table "INVENTORY" not found; SQL statement:
+DROP TABLE inventory [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "LANGUAGE" no encontrada
+Table "LANGUAGE" not found; SQL statement:
+DROP TABLE language [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "CATEGORY" no encontrada
+Table "CATEGORY" not found; SQL statement:
+DROP TABLE category [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "ACTOR" no encontrada
+Table "ACTOR" not found; SQL statement:
+DROP TABLE actor [42102-196]
+2020-05-04 11:44:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "FILM_ACTOR" no encontrada
+Table "FILM_ACTOR" not found; SQL statement:
+DROP TABLE film_actor [42102-196]

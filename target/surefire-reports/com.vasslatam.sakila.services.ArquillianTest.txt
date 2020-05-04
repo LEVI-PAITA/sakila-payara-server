@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.vasslatam.sakila.services.ArquillianTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 45.296 s - in com.vasslatam.sakila.services.ArquillianTest

@@ -1,0 +1,19 @@
+{
+    "customer": [        
+        {
+            "customer_id":1,
+            "first_name": "Albert",
+            "last_name": "Einstein"
+        },
+        {
+            "customer_id":2,
+            "first_name": "Nikola",
+            "last_name": "Tesla"
+        },
+        {
+            "customer_id":3,
+            "first_name": "Tomas",
+            "last_name": "Edison"
+        }
+    ]
+}
