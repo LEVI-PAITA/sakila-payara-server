@@ -1,2 +1,2 @@
 # sakila-payara-server
-Proyecto sakila con paya server y mysql
+Proyecto sakila con payara server y mysql
